@@ -94,7 +94,7 @@ function getDb() {
   if (!db) {
     admin.initializeApp({
       credential: admin.credential.cert(cert),
-      databaseURL: 'https://flatris-16471.firebaseio.com/'
+      databaseURL: 'https://flatris-forever.firebaseio.com'
     });
 
     db = admin.database();
