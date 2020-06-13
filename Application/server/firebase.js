@@ -70,7 +70,7 @@ export function incrementGameTime(seconds: number) {
   incrementCount('seconds', seconds);
 }
 
-const { FIREBASE_SERVICE_ACCOUNT } = process.env;
+const { FIREBASE_SERVICE_ACCOUNT } = firebase-adminsdk-d01ru@flatris-16471.iam.gserviceaccount.com
 const cert = FIREBASE_SERVICE_ACCOUNT
   ? JSON.parse(FIREBASE_SERVICE_ACCOUNT)
   : null;
